@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   def home
     if request.post?
-      redirect_to '/one'
+      render 'home'
     end
   end
 
